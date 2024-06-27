@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片排列示例</title>
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            /* 间距 */
+        }
+
+        .image-container img {
+            width: calc(25% - 10px);
+            /* 每行四个图片，每个图片宽度为25% */
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="image1.jpg" alt="图片1">
+        <img src="image2.jpg" alt="图片2">
+        <img src="image3.jpg" alt="图片3">
+        <img src="image4.jpg" alt="图片4">
+        <img src="image5.jpg" alt="图片5">
+        <img src="image6.jpg" alt="图片6">
+        <img src="image7.jpg" alt="图片7">
+        <img src="image8.jpg" alt="图片8">
+        <!-- 添加更多图片 -->
+    </div>
+</body>
+
+</html>
